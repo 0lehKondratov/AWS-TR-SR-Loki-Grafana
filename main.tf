@@ -57,7 +57,7 @@ module "eks" {
       max_size     = 5
       desired_size = 2
 
-      instance_types = ["t2.small"]
+      instance_types = ["t3.larg"]
       capacity_type  = "ON_DEMAND"
 
       block_device_mappings = {
